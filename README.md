@@ -41,8 +41,8 @@ The configuration details of each machine may be found below.
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  |20.102.58.138 (Public) 10.0.0.4 (Private)| Linux |
 | ELK   | Server | 20.65.88.22(Public)10.1.0.4 (Private)| Linux 
-| WEB1  |  Server  |40.121.20.232(Public) 10.0.0.5 (Private)|Linux |
-|WEB2 |Server|40.121.20.232(Public) 10.0.0.6 (Private)| Linux |
+| WEB1  |  Server  |40.121.20.232(Loadbalancer) 10.0.0.5 (Private)|Linux |
+|WEB2 |Server|40.121.20.232(Loadbalancer) 10.0.0.6 (Private)| Linux |
 
 ### Access Policies
 
